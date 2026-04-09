@@ -1,0 +1,47 @@
+# IDE
+.vscode/
+.idea/
+
+# Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+build/
+dist/
+
+# Notebooks
+.ipynb_checkpoints
+
+# Logs & Error Outputs
+logs/
+*.log
+error*.txt
+output*.txt
+test_*.txt
+test_new_model.txt
+test_domain.txt
+mock_artifacts.py
+
+# Keep requirements.txt and txt based explanations if any, but ignore all generated specific .txt logs
+!requirements.txt
+
+# Local data and datasets
+data/raw/
+*.csv
+
+# Model weights
+models/*.pth
+models/*.pkl
+models/*.json
+
+# Results (keep metadata, but ignore generated figures unless intended for readme)
+# Let's assume you want to keep architecture or README figures but ignore typical run figures
+results/figures/
+results/explainability/
+
+# OS Specific
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+# Environments
+.venv/
+venv/
+
+# Large Datasets
+*.csv
+
+# OS
+.DS_Store

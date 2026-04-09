@@ -1,0 +1,21 @@
+{
+    "dataset_source": "Hugging Face or Synthetic",
+    "seed": 42,
+    "hyperparams": {
+        "seed": 42,
+        "max_len": 200,
+        "embedding_dim": 64,
+        "batch_size": 128,
+        "lr": 0.001,
+        "epochs": 30,
+        "dropout": 0.2,
+        "patience": 5,
+        "dataset_ratios": [
+            0.8,
+            0.1,
+            0.1
+        ]
+    },
+    "model_architecture": "CNN1DPhishDetector",
+    "timestamp": "2026-04-06T14:54:28.687930"
+}
