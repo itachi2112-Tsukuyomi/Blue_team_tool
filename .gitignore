@@ -3,7 +3,7 @@
 venv/
 
 # Large Datasets
-*.csv
+# CSVs are allowed so everything is uploaded as requested
 
 # OS
 .DS_Store

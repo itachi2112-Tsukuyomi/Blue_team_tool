@@ -29,17 +29,10 @@ mock_artifacts.py
 !requirements.txt
 
 # Local data and datasets
-data/raw/
-*.csv
+# (Datasets are large but the user requested the whole project uploaded)
 
-# Model weights
-models/*.pth
-models/*.pkl
-models/*.json
+# Model weights and Results figures will be tracked so the project works out-of-the-box
 
-# Results (keep metadata, but ignore generated figures unless intended for readme)
-# Let's assume you want to keep architecture or README figures but ignore typical run figures
-results/figures/
 results/explainability/
 
 # OS Specific
